@@ -174,6 +174,7 @@
             this.Controls.Add(this.tbx_wordType);
             this.Controls.Add(this.tbx_word);
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Update";
             this.Load += new System.EventHandler(this.Lb_mean_Load);
             this.ResumeLayout(false);

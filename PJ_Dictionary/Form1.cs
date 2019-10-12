@@ -25,9 +25,12 @@ namespace PJ_Dictionary
 
         public void Btn_Search_Click(object sender, EventArgs e)
         {
-            lb_Word.Text = "apple";
-            lb_WordType.Text = "noun";
-            lb_Mean1.Text = "quả táo";
+            lb_Word.Text = "Đặng Thị Ngọc Hân";
+            lb_WordType.Text = "Ốc Hân";
+            lb_Mean1.Text = "Heo";
+            lb_Mean2.Text = "Ăn";
+            lb_Mean3.Text = "Cám";
+
         }
 
         private void Tbx_Nhaptu_KeyDown(object sender, KeyEventArgs e)
