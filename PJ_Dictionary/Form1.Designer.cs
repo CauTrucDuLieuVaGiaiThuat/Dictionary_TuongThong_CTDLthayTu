@@ -35,13 +35,17 @@
             this.lb_Word = new System.Windows.Forms.Label();
             this.lb_WordType = new System.Windows.Forms.Label();
             this.lb_Mean1 = new System.Windows.Forms.Label();
-            this.lb_Mean2 = new System.Windows.Forms.Label();
-            this.lb_Mean3 = new System.Windows.Forms.Label();
             this.btn_Add = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.bt_mean1 = new System.Windows.Forms.Button();
+            this.bt_mean2 = new System.Windows.Forms.Button();
+            this.bt_mean3 = new System.Windows.Forms.Button();
+            this.bt_mean4 = new System.Windows.Forms.Button();
+            this.bt_mean5 = new System.Windows.Forms.Button();
+            this.lb_Mean2 = new System.Windows.Forms.Label();
+            this.lb_Mean3 = new System.Windows.Forms.Label();
+            this.lb_Mean4 = new System.Windows.Forms.Label();
+            this.lb_Mean5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // tbx_Nhaptu
@@ -109,9 +113,9 @@
             this.lb_Word.ForeColor = System.Drawing.Color.Blue;
             this.lb_Word.Location = new System.Drawing.Point(520, 292);
             this.lb_Word.Name = "lb_Word";
-            this.lb_Word.Size = new System.Drawing.Size(301, 31);
+            this.lb_Word.Size = new System.Drawing.Size(465, 31);
             this.lb_Word.TabIndex = 4;
-            this.lb_Word.Text = "từ tiến anh";
+            this.lb_Word.Text = "từ tiếng anh";
             // 
             // lb_WordType
             // 
@@ -130,36 +134,12 @@
             this.lb_Mean1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lb_Mean1.AutoSize = true;
             this.lb_Mean1.BackColor = System.Drawing.Color.Transparent;
-            this.lb_Mean1.Font = new System.Drawing.Font("Calibri", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Mean1.Location = new System.Drawing.Point(616, 406);
+            this.lb_Mean1.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Mean1.Location = new System.Drawing.Point(623, 406);
             this.lb_Mean1.Name = "lb_Mean1";
-            this.lb_Mean1.Size = new System.Drawing.Size(78, 27);
+            this.lb_Mean1.Size = new System.Drawing.Size(85, 29);
             this.lb_Mean1.TabIndex = 6;
             this.lb_Mean1.Text = "nghia 1";
-            // 
-            // lb_Mean2
-            // 
-            this.lb_Mean2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lb_Mean2.AutoSize = true;
-            this.lb_Mean2.BackColor = System.Drawing.Color.Transparent;
-            this.lb_Mean2.Font = new System.Drawing.Font("Calibri", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Mean2.Location = new System.Drawing.Point(616, 474);
-            this.lb_Mean2.Name = "lb_Mean2";
-            this.lb_Mean2.Size = new System.Drawing.Size(78, 27);
-            this.lb_Mean2.TabIndex = 7;
-            this.lb_Mean2.Text = "nghia 2";
-            // 
-            // lb_Mean3
-            // 
-            this.lb_Mean3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lb_Mean3.AutoSize = true;
-            this.lb_Mean3.BackColor = System.Drawing.Color.Transparent;
-            this.lb_Mean3.Font = new System.Drawing.Font("Calibri", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Mean3.Location = new System.Drawing.Point(616, 552);
-            this.lb_Mean3.Name = "lb_Mean3";
-            this.lb_Mean3.Size = new System.Drawing.Size(78, 27);
-            this.lb_Mean3.TabIndex = 8;
-            this.lb_Mean3.Text = "nghia 3";
             // 
             // btn_Add
             // 
@@ -185,47 +165,128 @@
             this.button1.TabIndex = 10;
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // bt_mean1
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button2.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button2.Location = new System.Drawing.Point(586, 405);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(10, 34);
-            this.button2.TabIndex = 11;
-            this.button2.UseVisualStyleBackColor = false;
+            this.bt_mean1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bt_mean1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bt_mean1.Enabled = false;
+            this.bt_mean1.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.bt_mean1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.bt_mean1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.bt_mean1.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bt_mean1.Location = new System.Drawing.Point(593, 406);
+            this.bt_mean1.Name = "bt_mean1";
+            this.bt_mean1.Size = new System.Drawing.Size(10, 34);
+            this.bt_mean1.TabIndex = 11;
+            this.bt_mean1.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // bt_mean2
             // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button3.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button3.Location = new System.Drawing.Point(586, 473);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(10, 34);
-            this.button3.TabIndex = 11;
-            this.button3.UseVisualStyleBackColor = false;
+            this.bt_mean2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bt_mean2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bt_mean2.Enabled = false;
+            this.bt_mean2.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.bt_mean2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.bt_mean2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.bt_mean2.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bt_mean2.Location = new System.Drawing.Point(593, 463);
+            this.bt_mean2.Name = "bt_mean2";
+            this.bt_mean2.Size = new System.Drawing.Size(10, 34);
+            this.bt_mean2.TabIndex = 11;
+            this.bt_mean2.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // bt_mean3
             // 
-            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.button4.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button4.Location = new System.Drawing.Point(586, 551);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(10, 34);
-            this.button4.TabIndex = 11;
-            this.button4.UseVisualStyleBackColor = false;
+            this.bt_mean3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bt_mean3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bt_mean3.Enabled = false;
+            this.bt_mean3.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.bt_mean3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.bt_mean3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.bt_mean3.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bt_mean3.Location = new System.Drawing.Point(593, 520);
+            this.bt_mean3.Name = "bt_mean3";
+            this.bt_mean3.Size = new System.Drawing.Size(10, 34);
+            this.bt_mean3.TabIndex = 11;
+            this.bt_mean3.UseVisualStyleBackColor = false;
+            // 
+            // bt_mean4
+            // 
+            this.bt_mean4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bt_mean4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bt_mean4.Enabled = false;
+            this.bt_mean4.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.bt_mean4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.bt_mean4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.bt_mean4.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bt_mean4.Location = new System.Drawing.Point(593, 577);
+            this.bt_mean4.Name = "bt_mean4";
+            this.bt_mean4.Size = new System.Drawing.Size(10, 34);
+            this.bt_mean4.TabIndex = 11;
+            this.bt_mean4.UseVisualStyleBackColor = false;
+            // 
+            // bt_mean5
+            // 
+            this.bt_mean5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bt_mean5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.bt_mean5.Enabled = false;
+            this.bt_mean5.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.bt_mean5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.bt_mean5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.bt_mean5.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.bt_mean5.Location = new System.Drawing.Point(593, 636);
+            this.bt_mean5.Name = "bt_mean5";
+            this.bt_mean5.Size = new System.Drawing.Size(10, 34);
+            this.bt_mean5.TabIndex = 11;
+            this.bt_mean5.UseVisualStyleBackColor = false;
+            // 
+            // lb_Mean2
+            // 
+            this.lb_Mean2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lb_Mean2.AutoSize = true;
+            this.lb_Mean2.BackColor = System.Drawing.Color.Transparent;
+            this.lb_Mean2.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Mean2.Location = new System.Drawing.Point(623, 463);
+            this.lb_Mean2.Name = "lb_Mean2";
+            this.lb_Mean2.Size = new System.Drawing.Size(85, 29);
+            this.lb_Mean2.TabIndex = 6;
+            this.lb_Mean2.Text = "nghia 1";
+            // 
+            // lb_Mean3
+            // 
+            this.lb_Mean3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lb_Mean3.AutoSize = true;
+            this.lb_Mean3.BackColor = System.Drawing.Color.Transparent;
+            this.lb_Mean3.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Mean3.Location = new System.Drawing.Point(623, 520);
+            this.lb_Mean3.Name = "lb_Mean3";
+            this.lb_Mean3.Size = new System.Drawing.Size(85, 29);
+            this.lb_Mean3.TabIndex = 6;
+            this.lb_Mean3.Text = "nghia 1";
+            // 
+            // lb_Mean4
+            // 
+            this.lb_Mean4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lb_Mean4.AutoSize = true;
+            this.lb_Mean4.BackColor = System.Drawing.Color.Transparent;
+            this.lb_Mean4.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Mean4.Location = new System.Drawing.Point(623, 577);
+            this.lb_Mean4.Name = "lb_Mean4";
+            this.lb_Mean4.Size = new System.Drawing.Size(85, 29);
+            this.lb_Mean4.TabIndex = 6;
+            this.lb_Mean4.Text = "nghia 1";
+            // 
+            // lb_Mean5
+            // 
+            this.lb_Mean5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lb_Mean5.AutoSize = true;
+            this.lb_Mean5.BackColor = System.Drawing.Color.Transparent;
+            this.lb_Mean5.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Mean5.Location = new System.Drawing.Point(623, 636);
+            this.lb_Mean5.Name = "lb_Mean5";
+            this.lb_Mean5.Size = new System.Drawing.Size(85, 29);
+            this.lb_Mean5.TabIndex = 6;
+            this.lb_Mean5.Text = "nghia 1";
             // 
             // Form1
             // 
@@ -234,11 +295,15 @@
             this.BackgroundImage = global::PJ_Dictionary.Properties.Resources.a;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1540, 698);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.bt_mean5);
+            this.Controls.Add(this.bt_mean4);
+            this.Controls.Add(this.bt_mean3);
+            this.Controls.Add(this.bt_mean2);
+            this.Controls.Add(this.bt_mean1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_Add);
+            this.Controls.Add(this.lb_Mean5);
+            this.Controls.Add(this.lb_Mean4);
             this.Controls.Add(this.lb_Mean3);
             this.Controls.Add(this.lb_Mean2);
             this.Controls.Add(this.lb_Mean1);
@@ -268,13 +333,17 @@
         public System.Windows.Forms.Button btn_Update;
         public System.Windows.Forms.Label lb_WordType;
         public System.Windows.Forms.Label lb_Mean1;
-        public System.Windows.Forms.Label lb_Mean2;
-        public System.Windows.Forms.Label lb_Mean3;
         public System.Windows.Forms.Button btn_Add;
         public System.Windows.Forms.Button button1;
-        public System.Windows.Forms.Button button2;
-        public System.Windows.Forms.Button button3;
-        public System.Windows.Forms.Button button4;
+        public System.Windows.Forms.Button bt_mean1;
+        public System.Windows.Forms.Button bt_mean2;
+        public System.Windows.Forms.Button bt_mean3;
+        public System.Windows.Forms.Button bt_mean4;
+        public System.Windows.Forms.Button bt_mean5;
+        public System.Windows.Forms.Label lb_Mean2;
+        public System.Windows.Forms.Label lb_Mean3;
+        public System.Windows.Forms.Label lb_Mean4;
+        public System.Windows.Forms.Label lb_Mean5;
     }
 }
 
