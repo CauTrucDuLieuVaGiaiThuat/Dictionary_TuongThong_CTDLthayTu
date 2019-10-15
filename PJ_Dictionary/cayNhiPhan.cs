@@ -24,12 +24,13 @@ namespace PJ_Dictionary
         {
             data = key;
             pLeft = pRight = null;
-        }   
+        }
+
         public void Insert(aboutWord key)
         {
             if (String.Compare(key.word, data.word, true) == 0)
                 return;
-            else if(String.Compare(key.word, data.word, true) < 0)
+            else if (String.Compare(key.word, data.word, true) < 0)
             {
                 if (pLeft == null)
                     pLeft = new Node(key);
@@ -48,7 +49,12 @@ namespace PJ_Dictionary
 
     public class TREE
     {
+        //public FileStream fa = new FileStream(@"TuDien.txt", FileMode.Create);
+        //public StreamWriter wr = new StreamWriter(fa, Encoding.Unicode);
+
+
         public Node root;
+
         public TREE()
         {
             root = null;
@@ -59,7 +65,7 @@ namespace PJ_Dictionary
             if (root == null)
                 root = new Node(key);
             else
-                root.Insert(key);   
+                root.Insert(key);
         }
 
         public Node Search(Node node, string key)
@@ -75,6 +81,25 @@ namespace PJ_Dictionary
             else
                 return null;
         }
-    }
 
+        public void duyet_LNR(Node node1, StreamWriter wr)
+        {
+            if (node1 == null) return;
+            duyet_LNR(node1.pLeft, wr);
+
+            wr.WriteLine(node1.data.word);
+            wr.WriteLine(node1.data.pronunciation);
+            wr.WriteLine(node1.data.wordType);
+            wr.WriteLine(node1.data.mean);
+
+            duyet_LNR(node1.pRight, wr);
+        }
+
+        public void writeToFile(Node node)
+        {
+            StreamWriter wr = new StreamWriter(@"duLieuTuDien.txt", false, Encoding.Unicode);
+            duyet_LNR(node, wr);
+            wr.Close();
+        }
+    }
 }

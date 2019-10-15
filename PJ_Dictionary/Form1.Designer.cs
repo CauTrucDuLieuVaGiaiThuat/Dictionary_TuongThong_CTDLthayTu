@@ -121,7 +121,8 @@
             // 
             this.lb_WordType.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lb_WordType.AutoSize = true;
-            this.lb_WordType.BackColor = System.Drawing.Color.Gainsboro;
+            this.lb_WordType.BackColor = System.Drawing.Color.Transparent;
+            this.lb_WordType.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lb_WordType.Font = new System.Drawing.Font("Calibri", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_WordType.Location = new System.Drawing.Point(544, 350);
             this.lb_WordType.Name = "lb_WordType";
@@ -295,6 +296,7 @@
             this.BackgroundImage = global::PJ_Dictionary.Properties.Resources.a;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1540, 698);
+            this.Controls.Add(this.lb_WordType);
             this.Controls.Add(this.bt_mean5);
             this.Controls.Add(this.bt_mean4);
             this.Controls.Add(this.bt_mean3);
@@ -307,7 +309,6 @@
             this.Controls.Add(this.lb_Mean3);
             this.Controls.Add(this.lb_Mean2);
             this.Controls.Add(this.lb_Mean1);
-            this.Controls.Add(this.lb_WordType);
             this.Controls.Add(this.lb_Word);
             this.Controls.Add(this.btn_Update);
             this.Controls.Add(this.btn_Delete);

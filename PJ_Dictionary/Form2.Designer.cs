@@ -121,6 +121,7 @@
             this.btn_updateFile.TabIndex = 6;
             this.btn_updateFile.Text = "Cập nhật vào file...";
             this.btn_updateFile.UseVisualStyleBackColor = false;
+            this.btn_updateFile.Click += new System.EventHandler(this.Btn_updateFile_Click);
             // 
             // lb_word
             // 
@@ -225,6 +226,7 @@
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Update";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form2_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

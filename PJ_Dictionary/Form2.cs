@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace PJ_Dictionary
 {
@@ -69,6 +70,17 @@ namespace PJ_Dictionary
             node1.data.mean = temp;
 
             //node1.data.mean = tbx_mean1.Text + "/" + tbx_mean2.Text + "/" + tbx_mean3.Text + "/" + tbx_mean4.Text + "/" + tbx_mean5.Text;
+        }
+
+        private void Btn_updateFile_Click(object sender, EventArgs e)
+        {
+            Form1.tree.writeToFile(Form1.tree.root);
+            MessageBox.Show("Cập nhật vào file thành công", "Thông báo");
+        }
+
+        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
         }
     }
 }
