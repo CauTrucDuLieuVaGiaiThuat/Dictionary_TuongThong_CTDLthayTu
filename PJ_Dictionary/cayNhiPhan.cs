@@ -7,6 +7,7 @@ using System.IO;
 
 namespace PJ_Dictionary
 {
+    //Khai báo kiểu dữ liệu cho từ điển
     public struct aboutWord
     {
         public string word;
@@ -14,18 +15,22 @@ namespace PJ_Dictionary
         public string wordType;
         public string mean;
     }
+
+    //Khai báo các nút
     public class Node
     {
         public aboutWord data;
         public Node pLeft;
         public Node pRight;
 
+        //Tạo một node mới với khóa là Key, không nhánh
         public Node(aboutWord key)
         {
             data = key;
             pLeft = pRight = null;
         }
 
+        //Them các nút con
         public void Insert(aboutWord key)
         {
             if (String.Compare(key.word, data.word, true) == 0)
@@ -55,11 +60,13 @@ namespace PJ_Dictionary
 
         public Node root;
 
+        //Khởi tạo cây rỗng
         public TREE()
         {
             root = null;
         }
 
+        //Thêm nút gốc vào cây
         public void InsertNode(aboutWord key)
         {
             if (root == null)
@@ -82,6 +89,7 @@ namespace PJ_Dictionary
                 return null;
         }
 
+        //Xuất các từ
         public void duyet_LNR(Node node1, StreamWriter wr)
         {
             if (node1 == null) return;
@@ -97,7 +105,7 @@ namespace PJ_Dictionary
 
         public void writeToFile(Node node)
         {
-            StreamWriter wr = new StreamWriter(@"duLieuTuDien.txt", false, Encoding.Unicode);
+            StreamWriter wr = new StreamWriter(@"duLieuTuDien.txt", false, Encoding.UTF8);
             duyet_LNR(node, wr);
             wr.Close();
         }

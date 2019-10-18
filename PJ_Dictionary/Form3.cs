@@ -46,20 +46,19 @@ namespace PJ_Dictionary
 
             if (tbx_mean5.Text != "")
                 key.mean = key.mean + "/" + tbx_mean5.Text;
-            //key.mean = tbx_mean1.Text + "/" + tbx_mean2.Text + "/" + tbx_mean3.Text + "/" + tbx_mean4.Text + "/" + tbx_mean5.Text;
+
             Form1.tree.InsertNode(key);
         }
 
         private void Btn_updateFile_Click(object sender, EventArgs e)
         {
-            StreamWriter wr = new StreamWriter(@"duLieuTuDien.txt", true, Encoding.Unicode);
+            StreamWriter wr = new StreamWriter(@"duLieuTuDien.txt", true, Encoding.UTF8);
             wr.WriteLine(key.word);
             wr.WriteLine(key.pronunciation);
             wr.WriteLine(key.wordType);
             wr.WriteLine(key.mean);
             wr.Close();
             MessageBox.Show("Cập nhật vào file thành công", "Thông báo");
-
         }
     }
 }

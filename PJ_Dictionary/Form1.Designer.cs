@@ -32,7 +32,6 @@
             this.btn_Search = new System.Windows.Forms.Button();
             this.btn_Delete = new System.Windows.Forms.Button();
             this.btn_Update = new System.Windows.Forms.Button();
-            this.lb_Word = new System.Windows.Forms.Label();
             this.lb_WordType = new System.Windows.Forms.Label();
             this.lb_Mean1 = new System.Windows.Forms.Label();
             this.btn_Add = new System.Windows.Forms.Button();
@@ -46,6 +45,7 @@
             this.lb_Mean3 = new System.Windows.Forms.Label();
             this.lb_Mean4 = new System.Windows.Forms.Label();
             this.lb_Mean5 = new System.Windows.Forms.Label();
+            this.lb_Word = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // tbx_Nhaptu
@@ -104,18 +104,6 @@
             this.btn_Update.Text = "Update";
             this.btn_Update.UseVisualStyleBackColor = false;
             this.btn_Update.Click += new System.EventHandler(this.Btn_Update_Click);
-            // 
-            // lb_Word
-            // 
-            this.lb_Word.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lb_Word.BackColor = System.Drawing.Color.Transparent;
-            this.lb_Word.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_Word.ForeColor = System.Drawing.Color.Blue;
-            this.lb_Word.Location = new System.Drawing.Point(520, 292);
-            this.lb_Word.Name = "lb_Word";
-            this.lb_Word.Size = new System.Drawing.Size(465, 31);
-            this.lb_Word.TabIndex = 4;
-            this.lb_Word.Text = "từ tiếng anh";
             // 
             // lb_WordType
             // 
@@ -289,6 +277,18 @@
             this.lb_Mean5.TabIndex = 6;
             this.lb_Mean5.Text = "nghia 1";
             // 
+            // lb_Word
+            // 
+            this.lb_Word.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lb_Word.BackColor = System.Drawing.Color.Transparent;
+            this.lb_Word.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_Word.ForeColor = System.Drawing.Color.Blue;
+            this.lb_Word.Location = new System.Drawing.Point(520, 292);
+            this.lb_Word.Name = "lb_Word";
+            this.lb_Word.Size = new System.Drawing.Size(465, 31);
+            this.lb_Word.TabIndex = 4;
+            this.lb_Word.Text = "từ tiếng anh";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -327,7 +327,6 @@
         }
 
         #endregion
-        public System.Windows.Forms.Label lb_Word;
         public System.Windows.Forms.TextBox tbx_Nhaptu;
         public System.Windows.Forms.Button btn_Search;
         public System.Windows.Forms.Button btn_Delete;
@@ -345,6 +344,7 @@
         public System.Windows.Forms.Label lb_Mean3;
         public System.Windows.Forms.Label lb_Mean4;
         public System.Windows.Forms.Label lb_Mean5;
+        public System.Windows.Forms.Label lb_Word;
     }
 }
 
