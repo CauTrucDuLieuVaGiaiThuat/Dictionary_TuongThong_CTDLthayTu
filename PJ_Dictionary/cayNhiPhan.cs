@@ -7,16 +7,16 @@ using System.IO;
 
 namespace PJ_Dictionary
 {
-    //Khai báo kiểu dữ liệu cho từ điển
+    //Khai báo kiểu dữ liệu struct cho từ điển
     public struct aboutWord
     {
-        public string word;
+        public string word;     
         public string pronunciation;
         public string wordType;
         public string mean;
     }
 
-    //Khai báo các nút
+    //Khởi tạo class Node
     public class Node
     {
         public aboutWord data;
@@ -75,11 +75,56 @@ namespace PJ_Dictionary
                 root.Insert(key);
         }
 
-        public Node Search(Node node, string key)
+        public void DiTimNodeTheMang(Node X, Node Y)
+        {
+            if (Y.pLeft != null)
+                DiTimNodeTheMang(X, Y.pLeft);
+            else
+            {
+                X.data = Y.data;
+                X = Y;
+                Y = Y.pRight;
+            }
+        }
+
+        public void delete(Node X)
+        {
+             X.data.word = null;
+             X.data.pronunciation = null;
+             X.data.wordType = null;
+             X.data.mean = null;
+        }
+        public void DeleteNode(Node node, string key)
         {
             if (node == null)
+                return;
+            else
+            {
+                if (String.Compare(key, node.data.word, true) < 0)
+                    DeleteNode(node.pLeft, key);
+                else if (String.Compare(key, node.data.word, true) > 0)
+                    DeleteNode(node.pRight, key);
+                else
+                {
+                    Node X = node;
+                    if (node.pLeft == null)
+                        node = node.pRight;
+                    else if (node.pRight == null)
+                        node = node.pLeft;
+                    else
+                    {
+                        DiTimNodeTheMang(X, node.pRight);
+                    }
+                    delete(X);
+                }
+            }
+        }
+
+        public Node Search(Node node, string key)
+        {
+            if (node == null)   
                 return null;
-            if (string.Compare(key, node.data.word) == 0)
+            else if (string.Compare(key, node.data.word) == 0)
                 return node;
             else if (string.Compare(key, node.data.word) < 0)
                 return Search(node.pLeft, key);

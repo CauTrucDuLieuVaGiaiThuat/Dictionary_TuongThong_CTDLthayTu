@@ -111,7 +111,7 @@ namespace PJ_Dictionary
 
         private void Tbx_Nhaptu_KeyDown(object sender, KeyEventArgs e)
         {
-            if (/*(e.KeyCode == Keys.Enter) || */(e.KeyCode == Keys.Return))
+            if ((e.KeyCode == Keys.Enter) || (e.KeyCode == Keys.Return))
             {
                 Btn_Search_Click(sender,e);
             }
@@ -152,6 +152,17 @@ namespace PJ_Dictionary
             }
             return tempMean;
         }
-            
+
+        private void Btn_Delete_Click(object sender, EventArgs e)
+        {
+            if (tbx_Nhaptu.Text == "")
+                MessageBox.Show("Nhập từ cần tìm trước khi xóa!", "Thông báo");
+            else
+            {
+                aboutWord1.word = tbx_Nhaptu.Text;
+                tree.DeleteNode(tree.root, aboutWord1.word);
+                MessageBox.Show("Xóa từ thành công!", "Thông báo");
+            }
+        }
     }
 }

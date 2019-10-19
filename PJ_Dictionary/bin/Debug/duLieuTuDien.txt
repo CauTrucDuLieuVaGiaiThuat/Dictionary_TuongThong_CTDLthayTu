@@ -190,6 +190,10 @@ lion
 /ˈlaɪən/ 
 danh từ
 con sư tử
+man
+/Man/
+Danh từ
+Đàn ông
 mermaid
 /ˈmɜːmeɪd/ 
 danh từ
@@ -370,7 +374,7 @@ zombie
 /ˈzɒmbi/ 
 danh từ
 xác người chết sống lại bằng ma thuật
-man
-/Man/
-Danh từ
-Đàn ông
+
+
+
+

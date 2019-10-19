@@ -80,5 +80,10 @@ namespace PJ_Dictionary
         {
 
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
