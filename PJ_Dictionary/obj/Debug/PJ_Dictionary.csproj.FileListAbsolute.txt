@@ -41,7 +41,6 @@ E:\Dictionary_TuongThong_CTDLthayTu\PJ_Dictionary\obj\Debug\PJ_Dictionary.Form2.
 E:\Dictionary_TuongThong_CTDLthayTu\PJ_Dictionary\obj\Debug\PJ_Dictionary.Form3.resources
 E:\Dictionary_TuongThong_CTDLthayTu\PJ_Dictionary\obj\Debug\PJ_Dictionary.Properties.Resources.resources
 E:\Dictionary_TuongThong_CTDLthayTu\PJ_Dictionary\obj\Debug\PJ_Dictionary.csproj.GenerateResource.cache
-E:\Dictionary_TuongThong_CTDLthayTu\PJ_Dictionary\obj\Debug\PJ_Dictionary.csproj.CoreCompileInputs.cache
 E:\Dictionary_TuongThong_CTDLthayTu\PJ_Dictionary\obj\Debug\PJ_Dictionary.exe
 E:\Dictionary_TuongThong_CTDLthayTu\PJ_Dictionary\obj\Debug\PJ_Dictionary.pdb
 E:\DataStructure&Algorithms\Dictionary_TuongThong_CTDLthayTu\PJ_Dictionary\bin\Debug\PJ_Dictionary.exe.config
@@ -65,6 +64,7 @@ E:\luubai\CAU_TRUC_DU_LIEU\DoAn\Dictionary_TuongThong_CTDLthayTu\PJ_Dictionary\o
 E:\luubai\CAU_TRUC_DU_LIEU\DoAn\Dictionary_TuongThong_CTDLthayTu\PJ_Dictionary\obj\Debug\PJ_Dictionary.Form3.resources
 E:\luubai\CAU_TRUC_DU_LIEU\DoAn\Dictionary_TuongThong_CTDLthayTu\PJ_Dictionary\obj\Debug\PJ_Dictionary.Properties.Resources.resources
 E:\luubai\CAU_TRUC_DU_LIEU\DoAn\Dictionary_TuongThong_CTDLthayTu\PJ_Dictionary\obj\Debug\PJ_Dictionary.csproj.GenerateResource.cache
-E:\luubai\CAU_TRUC_DU_LIEU\DoAn\Dictionary_TuongThong_CTDLthayTu\PJ_Dictionary\obj\Debug\PJ_Dictionary.csproj.CoreCompileInputs.cache
 E:\luubai\CAU_TRUC_DU_LIEU\DoAn\Dictionary_TuongThong_CTDLthayTu\PJ_Dictionary\obj\Debug\PJ_Dictionary.exe
 E:\luubai\CAU_TRUC_DU_LIEU\DoAn\Dictionary_TuongThong_CTDLthayTu\PJ_Dictionary\obj\Debug\PJ_Dictionary.pdb
+E:\luubai\CAU_TRUC_DU_LIEU\DoAn\Dictionary_TuongThong_CTDLthayTu\PJ_Dictionary\obj\Debug\PJ_Dictionary.Form4.resources
+E:\Dictionary_TuongThong_CTDLthayTu\PJ_Dictionary\obj\Debug\PJ_Dictionary.Form4.resources

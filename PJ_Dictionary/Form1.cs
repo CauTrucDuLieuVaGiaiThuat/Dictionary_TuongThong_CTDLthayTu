@@ -63,7 +63,7 @@ namespace PJ_Dictionary
                 node1 = tree.Search(tree.root, tbx_Nhaptu.Text);
                 if (node1 == null)
                 {
-                    lb_Word.Text = "Xin lỗi! Không có dữ liệu từ này."; ;
+                    lb_Word.Text = "Xin lỗi! Không có dữ liệu từ này.";
                     lb_WordType.Text = "";
                 }
                 else
@@ -160,8 +160,25 @@ namespace PJ_Dictionary
             else
             {
                 aboutWord1.word = tbx_Nhaptu.Text;
-                tree.DeleteNode(tree.root, aboutWord1.word);
-                MessageBox.Show("Xóa từ thành công!", "Thông báo");
+                tree.DeleteNode(ref tree.root, aboutWord1.word);
+
+                Form4 form4 = new Form4();
+                form4.Show();
+
+                bt_mean1.Visible = false;
+                bt_mean2.Visible = false;
+                bt_mean3.Visible = false;
+                bt_mean4.Visible = false;
+                bt_mean5.Visible = false;
+                lb_Mean1.Text = "";
+                lb_Mean2.Text = "";
+                lb_Mean3.Text = "";
+                lb_Mean4.Text = "";
+                lb_Mean5.Text = "";
+                lb_Word.Text = "Xóa từ thành công!";
+                lb_WordType.Text = "";
+
+
             }
         }
     }

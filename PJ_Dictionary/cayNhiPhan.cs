@@ -75,10 +75,10 @@ namespace PJ_Dictionary
                 root.Insert(key);
         }
 
-        public void DiTimNodeTheMang(Node X, Node Y)
+        public void DiTimNodeTheMang(ref Node X,ref Node Y)
         {
             if (Y.pLeft != null)
-                DiTimNodeTheMang(X, Y.pLeft);
+                DiTimNodeTheMang(ref X,ref Y.pLeft);
             else
             {
                 X.data = Y.data;
@@ -87,23 +87,16 @@ namespace PJ_Dictionary
             }
         }
 
-        public void delete(Node X)
-        {
-             X.data.word = null;
-             X.data.pronunciation = null;
-             X.data.wordType = null;
-             X.data.mean = null;
-        }
-        public void DeleteNode(Node node, string key)
+        public void DeleteNode(ref Node node, string key)
         {
             if (node == null)
                 return;
             else
             {
                 if (String.Compare(key, node.data.word, true) < 0)
-                    DeleteNode(node.pLeft, key);
+                    DeleteNode(ref node.pLeft, key);
                 else if (String.Compare(key, node.data.word, true) > 0)
-                    DeleteNode(node.pRight, key);
+                    DeleteNode(ref node.pRight, key);
                 else
                 {
                     Node X = node;
@@ -113,9 +106,9 @@ namespace PJ_Dictionary
                         node = node.pLeft;
                     else
                     {
-                        DiTimNodeTheMang(X, node.pRight);
+                        DiTimNodeTheMang(ref X,ref node.pRight);
                     }
-                    delete(X);
+                    X = null;
                 }
             }
         }

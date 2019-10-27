@@ -5,7 +5,7 @@ chịu đựng/trú/tồn tại
 agreement
 /əˈgrēmənt/
 danh từ
-hợp đồng/hiệp ước/sự đồng lòng/thông
+hợp đồng/hiệp ước/sự đồng lòng
 alligator
 /ˈælɪɡeɪtər/ 
 danh từ
@@ -22,10 +22,6 @@ basilisk
 /ˈbæzɪlɪsk/ 
 danh từ
 một sinh vật giống mãng xà, có thể giết người bằng cách nhìn vào mắt họ
-bat
-/bæt/ 
-danh từ
-dơi
 bear
 /beər/ 
 danh từ
@@ -34,10 +30,6 @@ beaver
 /ˈbiːvər/ 
 danh từ
 hải ly
-bee
-/biː/ 
-danh từ
-con ong
 beetle
 /ˈbiːtl/ 
 danh từ
@@ -190,10 +182,6 @@ lion
 /ˈlaɪən/ 
 danh từ
 con sư tử
-man
-/Man/
-Danh từ
-Đàn ông
 mermaid
 /ˈmɜːmeɪd/ 
 danh từ
@@ -374,7 +362,3 @@ zombie
 /ˈzɒmbi/ 
 danh từ
 xác người chết sống lại bằng ma thuật
-
-
-
-
