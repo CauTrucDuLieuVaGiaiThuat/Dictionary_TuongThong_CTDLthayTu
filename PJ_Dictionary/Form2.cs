@@ -26,6 +26,7 @@ namespace PJ_Dictionary
         }
         public void showWord(Node node1)
         {
+            tbx_word.Enabled = false;
             tbx_word.Text = node1.data.word;
             tbx_pronunciation.Text = node1.data.pronunciation;
             tbx_wordType.Text = node1.data.wordType;

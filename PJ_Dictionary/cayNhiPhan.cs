@@ -131,13 +131,13 @@ namespace PJ_Dictionary
         public void duyet_LNR(Node node1, StreamWriter wr)
         {
             if (node1 == null) return;
-            duyet_LNR(node1.pLeft, wr);
 
             wr.WriteLine(node1.data.word);
             wr.WriteLine(node1.data.pronunciation);
             wr.WriteLine(node1.data.wordType);
             wr.WriteLine(node1.data.mean);
 
+            duyet_LNR(node1.pLeft, wr);
             duyet_LNR(node1.pRight, wr);
         }
 

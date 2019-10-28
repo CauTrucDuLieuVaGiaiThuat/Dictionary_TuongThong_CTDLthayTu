@@ -1,12 +1,4 @@
-﻿abide by
-/əˈbīd/
-động từ
-chịu đựng/trú/tồn tại
-agreement
-/əˈgrēmənt/
-danh từ
-hợp đồng/hiệp ước/sự đồng lòng/thông
-alligator
+﻿alligator
 /ˈælɪɡeɪtər/ 
 danh từ
 cá sấu
@@ -14,22 +6,10 @@ assurance
 /əˈSHo͝orəns/
 danh từ
 an tâm/sự tin chắc, sự bảo đảm, sự quả quyết/bảo hiểm
-bark
-/bɑːk/
-danh từ
-tiếng sủa (chó)
 basilisk
 /ˈbæzɪlɪsk/ 
 danh từ
 một sinh vật giống mãng xà, có thể giết người bằng cách nhìn vào mắt họ
-bat
-/bæt/ 
-danh từ
-dơi
-bear
-/beər/ 
-danh từ
-con gấu
 beaver
 /ˈbiːvər/ 
 danh từ
@@ -37,7 +17,7 @@ hải ly
 bee
 /biː/ 
 danh từ
-con ong
+con ong/con ong vàng/con ong
 beetle
 /ˈbiːtl/ 
 danh từ
@@ -65,11 +45,7 @@ cái vạc
 centaur
 /ˈsentɔːr/ 
 danh từ
-nhân mã
-cerberus
-chó săn ba đầu với đuôi rắn, bờm bằng rắn, và vuốt của sư tử
-chimera
-/kaɪˈmɪrə/ 
+nhân mã 
 Chick
 /tʃɪk/ 
 danh từ
@@ -374,7 +350,3 @@ zombie
 /ˈzɒmbi/ 
 danh từ
 xác người chết sống lại bằng ma thuật
-
-
-
-
