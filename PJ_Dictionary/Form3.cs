@@ -22,32 +22,42 @@ namespace PJ_Dictionary
         private void Btn_andNewTree_Click(object sender, EventArgs e)
         {
             andNew();
-            MessageBox.Show("Thêm từ thành công!", "Thông báo!");
         }
 
         public void andNew()
         {
-            key.word = tbx_word.Text;
-            key.pronunciation = tbx_pronunciation.Text;
-            key.wordType = tbx_wordType.Text;
+            if (tbx_word.Text == "")
+                MessageBox.Show("Bạn phải nhập từ trước khi thêm!", "Thông báo!");
+            else
+            {
+                key.word = tbx_word.Text;
+                key.pronunciation = tbx_pronunciation.Text;
+                key.wordType = tbx_wordType.Text;
 
-            key.mean = "";
-            if (tbx_mean1.Text != "")
-                key.mean = tbx_mean1.Text;
+                key.mean = "";
+                if (tbx_mean1.Text != "")
+                    key.mean = tbx_mean1.Text;
 
-            if (tbx_mean2.Text != "")
-                key.mean = key.mean + "/" + tbx_mean2.Text;
+                if (tbx_mean2.Text != "")
+                    key.mean = key.mean + "/" + tbx_mean2.Text;
 
-            if (tbx_mean3.Text != "")
-                key.mean = key.mean + "/" + tbx_mean3.Text;
+                if (tbx_mean3.Text != "")
+                    key.mean = key.mean + "/" + tbx_mean3.Text;
 
-            if (tbx_mean4.Text != "")
-                key.mean = key.mean + "/" + tbx_mean4.Text;
+                if (tbx_mean4.Text != "")
+                    key.mean = key.mean + "/" + tbx_mean4.Text;
 
-            if (tbx_mean5.Text != "")
-                key.mean = key.mean + "/" + tbx_mean5.Text;
+                if (tbx_mean5.Text != "")
+                    key.mean = key.mean + "/" + tbx_mean5.Text;
 
-            Form1.tree.InsertNode(key);
+                int kt = Form1.tree.InsertNode(key);
+                if(kt == 0)
+                    MessageBox.Show("Thêm từ thành công!", "Thông báo!");
+                else
+                    MessageBox.Show("Xin lỗi! Từ bạn thêm đã tồn tại", "Thông báo!");
+
+            }
+            
         }
 
         private void Btn_updateFile_Click(object sender, EventArgs e)

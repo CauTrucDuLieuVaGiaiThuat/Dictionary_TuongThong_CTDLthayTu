@@ -31,10 +31,10 @@ namespace PJ_Dictionary
         }
 
         //Them các nút con
-        public void Insert(aboutWord key)
+        public int Insert(aboutWord key)
         {
             if (String.Compare(key.word, data.word, true) == 0)
-                return;
+                return 0;
             else if (String.Compare(key.word, data.word, true) < 0)
             {
                 if (pLeft == null)
@@ -49,6 +49,7 @@ namespace PJ_Dictionary
                 else
                     pRight.Insert(key);
             }
+            return 1;
         }
     }
 
@@ -67,12 +68,13 @@ namespace PJ_Dictionary
         }
 
         //Thêm nút gốc vào cây
-        public void InsertNode(aboutWord key)
+        public int InsertNode(aboutWord key)
         {
             if (root == null)
                 root = new Node(key);
             else
-                root.Insert(key);
+                return root.Insert(key);
+            return 1;
         }
 
         public void DiTimNodeTheMang(ref Node X,ref Node Y)
