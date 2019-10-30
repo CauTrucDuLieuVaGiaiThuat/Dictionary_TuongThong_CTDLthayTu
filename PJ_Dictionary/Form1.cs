@@ -36,7 +36,7 @@ namespace PJ_Dictionary
                 aboutWord1.pronunciation = rd.ReadLine();
                 aboutWord1.wordType = rd.ReadLine();
                 aboutWord1.mean = rd.ReadLine();
-                tree.InsertNode(aboutWord1);
+                tree.InsertNode(ref tree.root, aboutWord1);
             }
             rd.Close();
         }
@@ -60,7 +60,6 @@ namespace PJ_Dictionary
             else
             {
                 node1 = tree.Search(tree.root, tbx_Nhaptu.Text);
-                node1 = tree.Search(tree.root, tbx_Nhaptu.Text);
                 if (node1 == null)
                 {
                     lb_Word.Text = "Xin lỗi! Không có dữ liệu từ này.";
@@ -70,9 +69,6 @@ namespace PJ_Dictionary
                 {
                     lb_Word.Text = node1.data.word + "    " + node1.data.pronunciation;
                     lb_WordType.Text = node1.data.wordType;
-
-                    //string tempWord = procesString(node1.data.mean);
-                    //lb_Mean1.Text = tempWord;
 
                     string tempMean = node1.data.mean;
                     string[] listMean = tempMean.Split('/'); // Hàm cắt chuỗi khi gặp '/'

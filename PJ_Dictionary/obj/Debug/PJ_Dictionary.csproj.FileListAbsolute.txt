@@ -92,3 +92,15 @@ E:\luubai\CAU_TRUC_DU_LIEU\DoAn\Dictionary_PC\PJ_Dictionary\obj\Debug\PJ_Diction
 E:\luubai\CAU_TRUC_DU_LIEU\DoAn\Dictionary_PC\PJ_Dictionary\obj\Debug\PJ_Dictionary.csproj.GenerateResource.cache
 E:\luubai\CAU_TRUC_DU_LIEU\DoAn\Dictionary_PC\PJ_Dictionary\obj\Debug\PJ_Dictionary.exe
 E:\luubai\CAU_TRUC_DU_LIEU\DoAn\Dictionary_PC\PJ_Dictionary\obj\Debug\PJ_Dictionary.pdb
+C:\Users\ASUS\Desktop\Dictionary_TuongThong_CTDLthayTu-master\Dictionary_TuongThong_CTDLthayTu-master\PJ_Dictionary\obj\Debug\PJ_Dictionary.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Dictionary_TuongThong_CTDLthayTu-master\Dictionary_TuongThong_CTDLthayTu-master\PJ_Dictionary\obj\Debug\PJ_Dictionary.Form1.resources
+C:\Users\ASUS\Desktop\Dictionary_TuongThong_CTDLthayTu-master\Dictionary_TuongThong_CTDLthayTu-master\PJ_Dictionary\obj\Debug\PJ_Dictionary.Form2.resources
+C:\Users\ASUS\Desktop\Dictionary_TuongThong_CTDLthayTu-master\Dictionary_TuongThong_CTDLthayTu-master\PJ_Dictionary\obj\Debug\PJ_Dictionary.Form3.resources
+C:\Users\ASUS\Desktop\Dictionary_TuongThong_CTDLthayTu-master\Dictionary_TuongThong_CTDLthayTu-master\PJ_Dictionary\obj\Debug\PJ_Dictionary.Form4.resources
+C:\Users\ASUS\Desktop\Dictionary_TuongThong_CTDLthayTu-master\Dictionary_TuongThong_CTDLthayTu-master\PJ_Dictionary\obj\Debug\PJ_Dictionary.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Dictionary_TuongThong_CTDLthayTu-master\Dictionary_TuongThong_CTDLthayTu-master\PJ_Dictionary\obj\Debug\PJ_Dictionary.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Dictionary_TuongThong_CTDLthayTu-master\Dictionary_TuongThong_CTDLthayTu-master\PJ_Dictionary\obj\Debug\PJ_Dictionary.exe
+C:\Users\ASUS\Desktop\Dictionary_TuongThong_CTDLthayTu-master\Dictionary_TuongThong_CTDLthayTu-master\PJ_Dictionary\obj\Debug\PJ_Dictionary.pdb
+C:\Users\ASUS\Desktop\Dictionary_TuongThong_CTDLthayTu-master\Dictionary_TuongThong_CTDLthayTu-master\PJ_Dictionary\bin\Debug\PJ_Dictionary.exe.config
+C:\Users\ASUS\Desktop\Dictionary_TuongThong_CTDLthayTu-master\Dictionary_TuongThong_CTDLthayTu-master\PJ_Dictionary\bin\Debug\PJ_Dictionary.exe
+C:\Users\ASUS\Desktop\Dictionary_TuongThong_CTDLthayTu-master\Dictionary_TuongThong_CTDLthayTu-master\PJ_Dictionary\bin\Debug\PJ_Dictionary.pdb

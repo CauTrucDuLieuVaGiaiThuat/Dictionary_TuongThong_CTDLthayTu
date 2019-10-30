@@ -50,12 +50,15 @@ namespace PJ_Dictionary
                 if (tbx_mean5.Text != "")
                     key.mean = key.mean + "/" + tbx_mean5.Text;
 
-                int kt = Form1.tree.InsertNode(key);
-                if(kt == 0)
-                    MessageBox.Show("Thêm từ thành công!", "Thông báo!");
-                else
+                int kt = Form1.tree.InsertNode(ref Form1.tree.root, key);
+                if (kt == 0)
+                {
                     MessageBox.Show("Xin lỗi! Từ bạn thêm đã tồn tại", "Thông báo!");
-
+                }
+                else
+                {
+                    MessageBox.Show("Thêm từ thành công!", "Thông báo!");
+                }
             }
             
         }

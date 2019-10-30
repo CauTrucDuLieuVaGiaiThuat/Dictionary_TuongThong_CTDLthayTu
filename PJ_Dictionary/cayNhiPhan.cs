@@ -31,26 +31,29 @@ namespace PJ_Dictionary
         }
 
         //Them các nút con
-        public int Insert(aboutWord key)
+        /*public void Insert(aboutWord key)
         {
             if (String.Compare(key.word, data.word, true) == 0)
-                return 0;
+                return;
             else if (String.Compare(key.word, data.word, true) < 0)
             {
                 if (pLeft == null)
+                {
                     pLeft = new Node(key);
+                }
                 else
                     pLeft.Insert(key);
             }
             else
             {
                 if (pRight == null)
+                {
                     pRight = new Node(key);
+                }  
                 else
                     pRight.Insert(key);
             }
-            return 1;
-        }
+        }*/
     }
 
     public class TREE
@@ -68,12 +71,33 @@ namespace PJ_Dictionary
         }
 
         //Thêm nút gốc vào cây
-        public int InsertNode(aboutWord key)
+        /*public void InsertNode(aboutWord key)
         {
             if (root == null)
+            {
                 root = new Node(key);
+            }     
             else
-                return root.Insert(key);
+                root.Insert(key);
+        }*/
+        public int InsertNode(ref Node T, aboutWord key)
+        {
+            if (T != null)
+            {
+                if (String.Compare(key.word, T.data.word, true) == 0)
+                {
+                    return 0;
+                }
+
+                else if (String.Compare(key.word, T.data.word, true) < 0)
+                    return InsertNode(ref T.pLeft, key);
+                else
+                    return InsertNode(ref T.pRight, key);
+            }
+            Node temp = new Node(key);
+
+            T = temp;
+            Console.WriteLine("1");
             return 1;
         }
 
@@ -115,7 +139,7 @@ namespace PJ_Dictionary
             }
         }
 
-        public Node Search(Node node, string key)
+        /*public Node Search(Node node, string key)
         {
             if (node == null)   
                 return null;
@@ -127,7 +151,22 @@ namespace PJ_Dictionary
                 return Search(node.pRight, key);
             else
                 return null;
+        }*/
+        public Node Search(Node node, string key)
+        {
+            Node p = node;
+            while(p != null)
+            {
+                if (string.Compare(key, p.data.word) == 0)
+                    return p;
+                else if (string.Compare(key, p.data.word) < 0)
+                    p = p.pLeft;
+                else
+                    p = p.pRight;
+            }
+            return null;
         }
+       
 
         //Xuất các từ
         public void duyet_LNR(Node node1, StreamWriter wr)
