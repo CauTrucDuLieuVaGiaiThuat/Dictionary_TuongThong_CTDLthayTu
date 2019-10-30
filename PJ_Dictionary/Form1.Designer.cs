@@ -288,7 +288,7 @@
             this.lb_Word.Name = "lb_Word";
             this.lb_Word.Size = new System.Drawing.Size(465, 31);
             this.lb_Word.TabIndex = 4;
-            this.lb_Word.Text = "từ tiếng anh";
+            this.lb_Word.Text = "Xin chào!";
             // 
             // Form1
             // 

@@ -39,6 +39,18 @@ namespace PJ_Dictionary
                 tree.InsertNode(ref tree.root, aboutWord1);
             }
             rd.Close();
+
+            bt_mean1.Visible = false;
+            bt_mean2.Visible = false;
+            bt_mean3.Visible = false;
+            bt_mean4.Visible = false;
+            bt_mean5.Visible = false;
+            lb_Mean1.Text = "";
+            lb_Mean2.Text = "";
+            lb_Mean3.Text = "";
+            lb_Mean4.Text = "";
+            lb_Mean5.Text = "";
+            lb_WordType.Text = "";
         }
 
         public void Btn_Search_Click(object sender, EventArgs e)
@@ -173,8 +185,6 @@ namespace PJ_Dictionary
                 lb_Mean5.Text = "";
                 lb_Word.Text = "Xóa từ thành công!";
                 lb_WordType.Text = "";
-
-
             }
         }
     }

@@ -95,9 +95,9 @@ namespace PJ_Dictionary
                     return InsertNode(ref T.pRight, key);
             }
             Node temp = new Node(key);
-
+            if (temp == null)
+                return -1;
             T = temp;
-            Console.WriteLine("1");
             return 1;
         }
 
@@ -169,7 +169,7 @@ namespace PJ_Dictionary
        
 
         //Xuất các từ
-        public void duyet_LNR(Node node1, StreamWriter wr)
+        public void duyet_NLR(Node node1, StreamWriter wr)
         {
             if (node1 == null) return;
 
@@ -178,14 +178,14 @@ namespace PJ_Dictionary
             wr.WriteLine(node1.data.wordType);
             wr.WriteLine(node1.data.mean);
 
-            duyet_LNR(node1.pLeft, wr);
-            duyet_LNR(node1.pRight, wr);
+            duyet_NLR(node1.pLeft, wr);
+            duyet_NLR(node1.pRight, wr);
         }
 
         public void writeToFile(Node node)
         {
             StreamWriter wr = new StreamWriter(@"duLieuTuDien.txt", false, Encoding.UTF8);
-            duyet_LNR(node, wr);
+            duyet_NLR(node, wr);
             wr.Close();
         }
     }
