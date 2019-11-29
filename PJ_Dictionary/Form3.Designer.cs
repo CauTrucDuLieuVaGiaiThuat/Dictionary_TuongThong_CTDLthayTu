@@ -200,7 +200,7 @@
             this.tbx_word.Location = new System.Drawing.Point(271, 188);
             this.tbx_word.Name = "tbx_word";
             this.tbx_word.Size = new System.Drawing.Size(245, 28);
-            this.tbx_word.TabIndex = 11;
+            this.tbx_word.TabIndex = 1;
             // 
             // Form3
             // 
@@ -223,9 +223,11 @@
             this.Controls.Add(this.tbx_pronunciation);
             this.Controls.Add(this.tbx_wordType);
             this.Controls.Add(this.tbx_word);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form3";
+            this.Text = "Add New";
             this.ResumeLayout(false);
             this.PerformLayout();
 

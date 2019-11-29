@@ -76,15 +76,5 @@ namespace PJ_Dictionary
             Form1.tree.writeToFile(Form1.tree.root);
             MessageBox.Show("Cập nhật vào file thành công", "Thông báo");
         }
-
-        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
-        {
-
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

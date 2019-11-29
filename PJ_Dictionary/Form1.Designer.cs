@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tbx_Nhaptu = new System.Windows.Forms.TextBox();
             this.btn_Search = new System.Windows.Forms.Button();
             this.btn_Delete = new System.Windows.Forms.Button();
             this.btn_Update = new System.Windows.Forms.Button();
@@ -46,20 +45,8 @@
             this.lb_Mean4 = new System.Windows.Forms.Label();
             this.lb_Mean5 = new System.Windows.Forms.Label();
             this.lb_Word = new System.Windows.Forms.Label();
+            this.cbb_NhapTu = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
-            // 
-            // tbx_Nhaptu
-            // 
-            this.tbx_Nhaptu.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.tbx_Nhaptu.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.tbx_Nhaptu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbx_Nhaptu.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbx_Nhaptu.Location = new System.Drawing.Point(562, 210);
-            this.tbx_Nhaptu.Margin = new System.Windows.Forms.Padding(4);
-            this.tbx_Nhaptu.Name = "tbx_Nhaptu";
-            this.tbx_Nhaptu.Size = new System.Drawing.Size(425, 36);
-            this.tbx_Nhaptu.TabIndex = 0;
-            this.tbx_Nhaptu.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Tbx_Nhaptu_KeyDown);
             // 
             // btn_Search
             // 
@@ -67,10 +54,10 @@
             this.btn_Search.BackColor = System.Drawing.Color.SteelBlue;
             this.btn_Search.Font = new System.Drawing.Font("Times New Roman", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Search.ForeColor = System.Drawing.Color.White;
-            this.btn_Search.Location = new System.Drawing.Point(881, 213);
+            this.btn_Search.Location = new System.Drawing.Point(975, 194);
             this.btn_Search.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Search.Name = "btn_Search";
-            this.btn_Search.Size = new System.Drawing.Size(104, 30);
+            this.btn_Search.Size = new System.Drawing.Size(104, 34);
             this.btn_Search.TabIndex = 1;
             this.btn_Search.Text = "Search";
             this.btn_Search.UseVisualStyleBackColor = false;
@@ -149,6 +136,7 @@
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1.Enabled = false;
             this.button1.Location = new System.Drawing.Point(520, 328);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(792, 3);
@@ -290,6 +278,22 @@
             this.lb_Word.TabIndex = 4;
             this.lb_Word.Text = "Xin chào!";
             // 
+            // cbb_NhapTu
+            // 
+            this.cbb_NhapTu.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cbb_NhapTu.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbb_NhapTu.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbb_NhapTu.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbb_NhapTu.FormattingEnabled = true;
+            this.cbb_NhapTu.IntegralHeight = false;
+            this.cbb_NhapTu.ItemHeight = 26;
+            this.cbb_NhapTu.Location = new System.Drawing.Point(572, 194);
+            this.cbb_NhapTu.Name = "cbb_NhapTu";
+            this.cbb_NhapTu.Size = new System.Drawing.Size(394, 34);
+            this.cbb_NhapTu.TabIndex = 1;
+            this.cbb_NhapTu.SelectedValueChanged += new System.EventHandler(this.cbb_NhapTu_SelectedValueChanged);
+            this.cbb_NhapTu.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cbb_NhapTu_KeyDown);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -297,6 +301,7 @@
             this.BackgroundImage = global::PJ_Dictionary.Properties.Resources.a;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1540, 698);
+            this.Controls.Add(this.cbb_NhapTu);
             this.Controls.Add(this.lb_WordType);
             this.Controls.Add(this.bt_mean5);
             this.Controls.Add(this.bt_mean4);
@@ -314,7 +319,6 @@
             this.Controls.Add(this.btn_Update);
             this.Controls.Add(this.btn_Delete);
             this.Controls.Add(this.btn_Search);
-            this.Controls.Add(this.tbx_Nhaptu);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -328,7 +332,6 @@
         }
 
         #endregion
-        public System.Windows.Forms.TextBox tbx_Nhaptu;
         public System.Windows.Forms.Button btn_Search;
         public System.Windows.Forms.Button btn_Delete;
         public System.Windows.Forms.Button btn_Update;
@@ -346,6 +349,7 @@
         public System.Windows.Forms.Label lb_Mean4;
         public System.Windows.Forms.Label lb_Mean5;
         public System.Windows.Forms.Label lb_Word;
+        public System.Windows.Forms.ComboBox cbb_NhapTu;
     }
 }
 

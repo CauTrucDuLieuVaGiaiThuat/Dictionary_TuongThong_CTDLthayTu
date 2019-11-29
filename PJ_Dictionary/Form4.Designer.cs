@@ -60,9 +60,11 @@
             this.ClientSize = new System.Drawing.Size(346, 166);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form4";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form4";
+            this.Text = "Delete";
             this.ResumeLayout(false);
             this.PerformLayout();
 
