@@ -140,3 +140,15 @@ C:\Users\Asus\Desktop\PJ_Dictionary\obj\Debug\PJ_Dictionary.Properties.Resources
 C:\Users\Asus\Desktop\PJ_Dictionary\obj\Debug\PJ_Dictionary.csproj.GenerateResource.cache
 C:\Users\Asus\Desktop\PJ_Dictionary\obj\Debug\PJ_Dictionary.exe
 C:\Users\Asus\Desktop\PJ_Dictionary\obj\Debug\PJ_Dictionary.pdb
+E:\luubai\CAU_TRUC_DU_LIEU\Báo cáo đồ án\PJ_Dictionary\bin\Debug\PJ_Dictionary.exe.config
+E:\luubai\CAU_TRUC_DU_LIEU\Báo cáo đồ án\PJ_Dictionary\bin\Debug\PJ_Dictionary.exe
+E:\luubai\CAU_TRUC_DU_LIEU\Báo cáo đồ án\PJ_Dictionary\bin\Debug\PJ_Dictionary.pdb
+E:\luubai\CAU_TRUC_DU_LIEU\Báo cáo đồ án\PJ_Dictionary\obj\Debug\PJ_Dictionary.csprojAssemblyReference.cache
+E:\luubai\CAU_TRUC_DU_LIEU\Báo cáo đồ án\PJ_Dictionary\obj\Debug\PJ_Dictionary.Form1.resources
+E:\luubai\CAU_TRUC_DU_LIEU\Báo cáo đồ án\PJ_Dictionary\obj\Debug\PJ_Dictionary.Form2.resources
+E:\luubai\CAU_TRUC_DU_LIEU\Báo cáo đồ án\PJ_Dictionary\obj\Debug\PJ_Dictionary.Form3.resources
+E:\luubai\CAU_TRUC_DU_LIEU\Báo cáo đồ án\PJ_Dictionary\obj\Debug\PJ_Dictionary.Form4.resources
+E:\luubai\CAU_TRUC_DU_LIEU\Báo cáo đồ án\PJ_Dictionary\obj\Debug\PJ_Dictionary.Properties.Resources.resources
+E:\luubai\CAU_TRUC_DU_LIEU\Báo cáo đồ án\PJ_Dictionary\obj\Debug\PJ_Dictionary.csproj.GenerateResource.cache
+E:\luubai\CAU_TRUC_DU_LIEU\Báo cáo đồ án\PJ_Dictionary\obj\Debug\PJ_Dictionary.exe
+E:\luubai\CAU_TRUC_DU_LIEU\Báo cáo đồ án\PJ_Dictionary\obj\Debug\PJ_Dictionary.pdb
